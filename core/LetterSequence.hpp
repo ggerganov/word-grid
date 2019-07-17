@@ -26,8 +26,8 @@ public:
 
     LetterSequence(const LetterSequence&) = default;
     LetterSequence& operator=(const LetterSequence&) = default;
-    LetterSequence(LetterSequence&&) noexcept = default;
-    LetterSequence& operator=(LetterSequence&&) noexcept = default;
+    LetterSequence(LetterSequence&&) = default;
+    LetterSequence& operator=(LetterSequence&&) = default;
 
     size_t length() const { return this->size(); }
 
